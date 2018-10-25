@@ -2,3 +2,4 @@ hub Hanover_hub
 shortLabel Hanover_hub
 longLabel Hanover_hub
 genomesFile genomes.txt
+email sijungyun@gmail.com
