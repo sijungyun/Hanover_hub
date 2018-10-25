@@ -1,0 +1,49 @@
+track O-GlcNAc_ChIP_seq
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_oglcnac.bw
+type bigWig
+visibility full
+shortLabel O-GlcNAc_ChIP-seq
+longLabel O-GlcNAc_ChIP-seq_in_embryo
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 1
+
+track Pol-II_ChIP-seq
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_pol_II.bw
+type bigWig
+visibility full
+shortLabel Pol-II_ChIP-seq
+longLabel Pol-II_ChIP-seq_in_embryo
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 2
+
+track O-GlcNAc_peaks
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/oglcnac_peaks.bb
+type bigBed
+visibility dense
+shortLabel O-GlcNAc_peaks
+longLabel O-GlcNAc_peaks
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 3
+
+track Overlap
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/intersect_piwi_repeats_and_oglcnac_default_sorted.bb
+type bigBed
+visibility dense
+shortLabel Overlap 
+longLabel Overlap_between_O-GlcNAc_and_piRNA_targets_in_repeat_sequences
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 4
+
+track piRNA_targets
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/simon_piwi_repeats_ce10_sorted.bb
+type bigBed
+visibility dense
+shortLabel piRNA_targets
+longLabel piRNA_targets_in_repeat_sequences
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 5
