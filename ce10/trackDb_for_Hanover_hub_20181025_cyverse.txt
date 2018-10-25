@@ -5,7 +5,7 @@ visibility full
 shortLabel O-GlcNAc_ChIP-seq
 longLabel O-GlcNAc_ChIP-seq_in_embryo
 maxHeightPixels 500:150:8
-viewLimits 0:500
+viewLimits -5:5
 priority 1
 
 track Pol-II_ChIP-seq
@@ -15,7 +15,7 @@ visibility full
 shortLabel Pol-II_ChIP-seq
 longLabel Pol-II_ChIP-seq_in_embryo
 maxHeightPixels 500:150:8
-viewLimits 0:500
+viewLimits -5:5
 priority 2
 
 track O-GlcNAc_peaks
