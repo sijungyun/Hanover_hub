@@ -1,6 +1,6 @@
 track O_GlcNAc_ChIP_seq
 type bigWig -1 1
-bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_oglcnac.bw
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_oglcnac_with_chr.bw
 visibility full
 shortLabel O_GlcNAc_ChIP_seq
 longLabel O_GlcNAc_ChIP_seq_in_embryo
