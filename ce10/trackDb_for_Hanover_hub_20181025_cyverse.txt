@@ -11,7 +11,7 @@ priority 1
 
 track Pol_II_ChIP-seq
 type bigWig -10 10
-bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_pol_II.bw
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_pol_II_with_chr.bw
 visibility full
 shortLabel Pol_II_ChIP_seq
 longLabel Pol_II_ChIP_seq_in_embryo
