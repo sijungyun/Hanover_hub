@@ -1,16 +1,17 @@
 track O_GlcNAc_ChIP_seq
-type bigWig
+type bigWig -1 1
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_oglcnac.bw
 visibility full
 shortLabel O_GlcNAc_ChIP_seq
 longLabel O_GlcNAc_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -1:1
+viewLimitMax -1:1
 priority 1
 
 track Pol_II_ChIP-seq
+type bigWig -1 1
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_pol_II.bw
-type bigWig
 visibility full
 shortLabel Pol_II_ChIP_seq
 longLabel Pol_II_ChIP_seq_in_embryo
