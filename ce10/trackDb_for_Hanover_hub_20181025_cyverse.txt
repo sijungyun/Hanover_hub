@@ -49,3 +49,13 @@ longLabel piRNA_targets_in_repeat_sequences
 maxHeightPixels 500:150:8
 viewLimits 0:500
 priority 5
+
+track Pol_II
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/pol_II_peaks.bb
+type bigBed
+visibility dense
+shortLabel Pol_II_peaks
+longLabel Pol_II_peaks
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 6
