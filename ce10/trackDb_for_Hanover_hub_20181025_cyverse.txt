@@ -20,6 +20,31 @@ viewLimits -3:3
 viewLimitsMax -10:10
 priority 2
 
+track H3K36me3_ChIP-seq
+type bigWig -10 10
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_H3K36me3_with_chr.bw
+visibility full
+shortLabel Pol_II_ChIP_seq
+longLabel Pol_II_ChIP_seq_in_embryo
+maxHeightPixels 500:300:8
+viewLimits -3:3
+viewLimitsMax -10:10
+priority 3
+
+track H3K27me3_ChIP-seq
+type bigWig -10 10
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_H3K27me3_with_chr.bw
+visibility full
+shortLabel Pol_II_ChIP_seq
+longLabel Pol_II_ChIP_seq_in_embryo
+maxHeightPixels 500:300:8
+viewLimits -3:3
+viewLimitsMax -10:10
+priority 4
+
+
+
+
 track O-GlcNAc_peaks
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/oglcnac_peaks.bb
 type bigBed
@@ -28,17 +53,17 @@ shortLabel O-GlcNAc_peaks
 longLabel O-GlcNAc_peaks
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 3
+priority 5
 
-track Overlap
+track Overlap_between_oglcnac_and_piRNA_targets
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/intersect_piwi_repeats_and_oglcnac_default_sorted.bb
 type bigBed
 visibility dense
-shortLabel Overlap 
+shortLabel Overlap_between_oglcnac_and_piRNA_targets 
 longLabel Overlap_between_O-GlcNAc_and_piRNA_targets_in_repeat_sequences
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 4
+priority 6
 
 track piRNA_targets
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/simon_piwi_repeats_ce10_sorted.bb
@@ -48,9 +73,9 @@ shortLabel piRNA_targets
 longLabel piRNA_targets_in_repeat_sequences
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 5
+priority 7
 
-track Pol_II
+track Pol_II_peaks
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/pol_II_peaks.bb
 type bigBed
 visibility dense
@@ -58,4 +83,24 @@ shortLabel Pol_II_peaks
 longLabel Pol_II_peaks
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 6
+priority 8
+
+track H3K36me3_peaks
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/H3K36me3_peaks.bb
+type bigBed
+visibility dense
+shortLabel H3K36me3_peaks
+longLabel H3K36me3_peaks
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 9
+
+track H3K27me3_peaks
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/H3K27me3_peaks.bb
+type bigBed
+visibility dense
+shortLabel H3K27me3_peaks
+longLabel H3K27me3_peaks
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 10
