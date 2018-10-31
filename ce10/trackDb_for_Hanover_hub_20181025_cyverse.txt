@@ -24,8 +24,8 @@ track H3K36me3_ChIP-seq
 type bigWig -10 10
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_H3K36me3_with_chr.bw
 visibility full
-shortLabel Pol_II_ChIP_seq
-longLabel Pol_II_ChIP_seq_in_embryo
+shortLabel H3K36me3_ChIP_seq
+longLabel H3K36me3_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -3:3
 viewLimitsMax -10:10
@@ -35,8 +35,8 @@ track H3K27me3_ChIP-seq
 type bigWig -10 10
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_H3K27me3_with_chr.bw
 visibility full
-shortLabel Pol_II_ChIP_seq
-longLabel Pol_II_ChIP_seq_in_embryo
+shortLabel H3K27me3_ChIP_seq
+longLabel H3K27me3_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -3:3
 viewLimitsMax -10:10
