@@ -2,7 +2,7 @@ track O_GlcNAc_ChIP_seq
 type bigWig -10 10
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_oglcnac_with_chr.bw
 visibility full
-shortLabel O_GlcNAc_ChIP_seq
+shortLabel O-GlcNAc
 longLabel O_GlcNAc_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -3:3
@@ -13,7 +13,7 @@ track Pol_II_ChIP-seq
 type bigWig -10 10
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_pol_II_with_chr.bw
 visibility full
-shortLabel Pol_II_ChIP_seq
+shortLabel Pol_II
 longLabel Pol_II_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -3:3
@@ -24,7 +24,7 @@ track H3K36me3_ChIP-seq
 type bigWig -10 10
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_H3K36me3_with_chr.bw
 visibility full
-shortLabel H3K36me3_ChIP_seq
+shortLabel H3K36me3
 longLabel H3K36me3_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -3:3
@@ -35,7 +35,7 @@ track H3K27me3_ChIP-seq
 type bigWig -10 10
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/z_score_H3K27me3_with_chr.bw
 visibility full
-shortLabel H3K27me3_ChIP_seq
+shortLabel H3K27me3
 longLabel H3K27me3_ChIP_seq_in_embryo
 maxHeightPixels 500:300:8
 viewLimits -3:3
@@ -59,7 +59,7 @@ track Overlap_between_oglcnac_and_piRNA_targets
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/Hanover_hub/intersect_piwi_repeats_and_oglcnac_default_sorted.bb
 type bigBed
 visibility dense
-shortLabel Overlap_between_oglcnac_and_piRNA_targets 
+shortLabel oglcnac_piRNA_overlap
 longLabel Overlap_between_O-GlcNAc_and_piRNA_targets_in_repeat_sequences
 maxHeightPixels 500:150:8
 viewLimits 0:500
